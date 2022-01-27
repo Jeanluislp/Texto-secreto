@@ -1,0 +1,47 @@
+@media screen and (max-width: 720px) {
+  .titulo {
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 200px;
+    padding-right: 125px;
+    width: 30vw;
+    margin: auto;
+    font-size: 24px;
+    font-family: "Playfair Display SC", serif;
+    -webkit-text-stroke: 1px #39ff14;
+  }
+  #container {
+    width: 175px;
+    height: 75px;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px #000;
+    margin: 1px auto;
+    border: 1px solid green;
+  }
+
+  #caja2 {
+    padding-top: 10px;
+  }
+  .main {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  #caja1 {
+    display: table-cell;
+    vertical-align: middle;
+    table-layout: auto;
+    width: 280px;
+  }
+  #caja3 {
+    table-layout: auto;
+    width: 280px;
+    margin-right: auto;
+    display: table;
+    margin-left: auto;
+  }
+  #piedepagina {
+    height: 100px;
+    margin-top: 50px;
+    font-size: 16px;
+  }
+}

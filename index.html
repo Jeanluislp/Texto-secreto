@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Encriptador desencripador/desencripador</title>
+    <link rel="stylesheet" href="./eslito.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="caja2">
+      <div id="container" class="filter">
+        <h1 class="titulo">Texto secreto</h1>
+      </div>
+    </div>
+
+    <main class="main">
+      <div class="caja" id="padre">
+        <section class="form box" id="caja3">
+          <form action="" id="form">
+            <label for="input-texto">Encriptar/Desncriptar texto</label>
+            <textarea
+              class="text-input"
+              name="input-texto"
+              id="input-texto"
+              placeholder="Ingrese el texto aquí"
+            ></textarea>
+            <input
+              class="btn"
+              type="submit"
+              value="encriptar!"
+              id="btn-encriptar"
+            />
+            <input
+              class="btn"
+              type="submit"
+              value="desencriptar!"
+              id="btn-desencriptar"
+            />
+          </form>
+        </section>
+      </div>
+      <div id="flotante"></div>
+      <div class="caja" id="hijo">
+        <section class="msg box" id="caja1">
+          <h2 id="">Resultado del texto:</h2>
+
+          <textarea class="text-input" id="msg"></textarea>
+
+          <input class="btn" type="submit" value="copiar" id="btn-copy" />
+        </section>
+      </div>
+    </main>
+
+    <script src="./js/form.js"></script>
+    <script src="./js/encriptar.js"></script>
+    <script src="./js/desencriptar.js"></script>
+    <script src="./js/copiartexto.js"></script>
+
+    <div id="piedepagina">
+      <h4>Alura challenge - Jean Lopez</h4>
+    </div>
+  </body>
+</html>
